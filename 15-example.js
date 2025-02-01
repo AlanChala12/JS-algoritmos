@@ -1,7 +1,6 @@
 // Construir una función que reciba como parámetro un entero y retorne 1 si dicho entero está entre los 30 primeros elementos de la serie de Fibonacci. Deberá retornar 0 si no es así.
 
 function isInFib( entero ) {
-  
     let n1 = 0
     let n2 = 1
     let fibElements = []
@@ -18,7 +17,6 @@ function isInFib( entero ) {
     let isIn = fibElements.includes(entero) ? 1 : 0
     
     return isIn
-  }
+}
   
-  
-  console.log(isInFib(7))
+console.log(isInFib(7))
