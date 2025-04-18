@@ -1,4 +1,4 @@
-// Construir una función que reciba como parámetro un vector y retorne la posición en la que se encuentre el mayor número primo que termine en 3 almacenado en el vector.
+// Construir una función que reciba como parámetro un vector y retorne la posición en la que se encuentre el mayor número primo que termine en 3 almacenado en el vector
 
 function primoMayor( arr ) {
    let primos = [];
